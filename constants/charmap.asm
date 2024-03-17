@@ -338,7 +338,7 @@
 
 	charmap "á", $d0
 	charmap "ð", $d1
-	charmap "é", $d2
+	; charmap "é", $d2 ; Already at $ba
 	charmap "í", $d3
 	charmap "ó", $d4
 	charmap "ú", $d5
@@ -347,32 +347,32 @@
 	charmap "æ", $d8
 	charmap "ö", $d9
 
-	; charmap "た", $c0
-	; charmap "ち", $c1
-	; charmap "つ", $c2
-	; charmap "て", $c3
-	; charmap "と", $c4
-	; charmap "な", $c5
-	; charmap "に", $c6
-	; charmap "ぬ", $c7
-	; charmap "ね", $c8
-	; charmap "の", $c9
+	charmap "た", $c0
+	charmap "ち", $c1
+	charmap "つ", $c2
+	charmap "て", $c3
+	charmap "と", $c4
+	charmap "な", $c5
+	charmap "に", $c6
+	charmap "ぬ", $c7
+	charmap "ね", $c8
+	charmap "の", $c9
 	charmap "は", $ca
 	charmap "ひ", $cb
 	charmap "ふ", $cc
 	charmap "へ", $cd
 	charmap "ほ", $ce
 	charmap "ま", $cf
-	; charmap "み", $d0
-	; charmap "む", $d1
-	; charmap "め", $d2
-	; charmap "も", $d3
-	; charmap "や", $d4
-	; charmap "ゆ", $d5
-	; charmap "よ", $d6
-	; charmap "ら", $d7
-	; charmap "り", $d8
-	; charmap "る", $d9
+	charmap "み", $d0
+	charmap "む", $d1
+	charmap "め", $d2
+	charmap "も", $d3
+	charmap "や", $d4
+	charmap "ゆ", $d5
+	charmap "よ", $d6
+	charmap "ら", $d7
+	charmap "り", $d8
+	charmap "る", $d9
 	charmap "れ", $da
 	charmap "ろ", $db
 	charmap "わ", $dc
