@@ -26,21 +26,21 @@ _OaksLabThoseArePokeBallsText::
 	done
 
 _OaksLabYouWantCharmanderText::
-	text "So! You want the"
-	line "fire #MON,"
-	cont "CHARMANDER?"
+	text "Svo! Þú vilt"
+	line "eld-#MONið,"
+	cont "GLÓÐMANDRA?"
 	done
 
 _OaksLabYouWantSquirtleText::
-	text "So! You want the"
-	line "water #MON,"
-	cont "SQUIRTLE?"
+	text "Svo! Þú vilt"
+	line "vatns-#MONið,"
+	cont "SPRAUTILL?"
 	done
 
 _OaksLabYouWantBulbasaurText::
-	text "So! You want the"
-	line "plant #MON,"
-	cont "BULBASAUR?"
+	text "Svo! Þú vilt"
+	line "plöntu-#MONið,"
+	cont "LAUKEÐLA?"
 	done
 
 _OaksLabMonEnergeticText::
