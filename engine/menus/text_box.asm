@@ -502,9 +502,9 @@ DisplayFieldMoveMonMenu:
 INCLUDE "data/moves/field_move_names.asm"
 
 PokemonMenuEntries:
-	db   "STATS"
-	next "SWITCH"
-	next "CANCEL@"
+	db   "TÖLUR"
+	next "SKIPTA"
+	next "HÆTTA@"
 
 GetMonFieldMoves:
 	ld a, [wWhichPokemon]

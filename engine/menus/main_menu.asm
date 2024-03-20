@@ -352,7 +352,7 @@ NewGameText:
 CableClubOptionsText:
 	db   "TRADE CENTER"
 	next "COLOSSEUM"
-	next "CANCEL@"
+	next "HÆTTA VIÐ@"
 
 DisplayContinueGameInfo:
 	xor a
@@ -606,7 +606,7 @@ BattleStyleOptionText:
 	next " SHIFT    SET@"
 
 OptionMenuCancelText:
-	db "CANCEL@"
+	db "HÆTTA VIÐ@"
 
 ; sets the options variable according to the current placement of the menu cursors in the options menu
 SetOptionsFromCursorPositions:

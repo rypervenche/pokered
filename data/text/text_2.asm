@@ -1358,7 +1358,7 @@ _WhichFloorText::
 	done
 
 _PartyMenuNormalText::
-	text "Choose a #MON."
+	text "Velja #MON."
 	done
 
 _PartyMenuItemUseText::

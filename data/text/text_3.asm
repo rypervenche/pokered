@@ -28,7 +28,7 @@ _WhenYouChangeBoxText::
 	done
 
 _ChooseABoxText::
-	text "Choose a"
+	text "Velja"
 	line "<PKMN> BOX.@"
 	text_end
 
