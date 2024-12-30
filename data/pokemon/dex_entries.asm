@@ -492,21 +492,21 @@ HitmonchanDexEntry:
 	text_end
 
 ArbokDexEntry:
-	db "COBRA@"
+	db "KÓBRA@"
 	db 11,6
 	dw 1430
 	text_far _ArbokDexEntry
 	text_end
 
 ParasectDexEntry:
-	db "MUSHROOM@"
+	db "SVEPPUR@"
 	db 3,3
 	dw 650
 	text_far _ParasectDexEntry
 	text_end
 
 PsyduckDexEntry:
-	db "DUCK@"
+	db "ÖND@"
 	db 2,7
 	dw 430
 	text_far _PsyduckDexEntry
@@ -541,7 +541,7 @@ ElectabuzzDexEntry:
 	text_end
 
 MagnetonDexEntry:
-	db "MAGNET@"
+	db "SEGULL@"
 	db 3,3
 	dw 1320
 	text_far _MagnetonDexEntry
@@ -583,7 +583,7 @@ TaurosDexEntry:
 	text_end
 
 FarfetchdDexEntry:
-	db "WILD DUCK@"
+	db "WILD ÖND@"
 	db 2,7
 	dw 330
 	text_far _FarfetchdDexEntry
@@ -597,7 +597,7 @@ VenonatDexEntry:
 	text_end
 
 DragoniteDexEntry:
-	db "DRAGON@"
+	db "DREKI@"
 	db 7,3
 	dw 4630
 	text_far _DragoniteDexEntry
@@ -625,7 +625,7 @@ JynxDexEntry:
 	text_end
 
 MoltresDexEntry:
-	db "FLAME@"
+	db "LOGI@"
 	db 6,7
 	dw 1320
 	text_far _MoltresDexEntry
@@ -695,14 +695,14 @@ RaichuDexEntry:
 	text_end
 
 DratiniDexEntry:
-	db "DRAGON@"
+	db "DREKI@"
 	db 5,11
 	dw 70
 	text_far _DratiniDexEntry
 	text_end
 
 DragonairDexEntry:
-	db "DRAGON@"
+	db "DREKI@"
 	db 13,1
 	dw 360
 	text_far _DragonairDexEntry
@@ -723,14 +723,14 @@ KabutopsDexEntry:
 	text_end
 
 HorseaDexEntry:
-	db "DRAGON@"
+	db "DREKI@"
 	db 1,4
 	dw 180
 	text_far _HorseaDexEntry
 	text_end
 
 SeadraDexEntry:
-	db "DRAGON@"
+	db "DREKI@"
 	db 3,11
 	dw 550
 	text_far _SeadraDexEntry
@@ -786,7 +786,7 @@ EeveeDexEntry:
 	text_end
 
 FlareonDexEntry:
-	db "FLAME@"
+	db "LOGI@"
 	db 2,11
 	dw 550
 	text_far _FlareonDexEntry
@@ -828,7 +828,7 @@ EkansDexEntry:
 	text_end
 
 ParasDexEntry:
-	db "MUSHROOM@"
+	db "SVEPPUR@"
 	db 1,0
 	dw 120
 	text_far _ParasDexEntry
@@ -933,7 +933,7 @@ MachampDexEntry:
 	text_end
 
 GolduckDexEntry:
-	db "DUCK@"
+	db "ÖND@"
 	db 5,7
 	dw 1690
 	text_far _GolduckDexEntry
@@ -1171,42 +1171,42 @@ AerodactylDexEntry:
 	text_end
 
 MagnemiteDexEntry:
-	db "MAGNET@"
+	db "SEGULL@"
 	db 1,0
 	dw 130
 	text_far _MagnemiteDexEntry
 	text_end
 
 CharmanderDexEntry:
-	db "LIZARD@"
+	db "EÐLA@"
 	db 2,0
 	dw 190
 	text_far _CharmanderDexEntry
 	text_end
 
 SquirtleDexEntry:
-	db "TINYTURTLE@"
+	db "SMÁSKJLDBK@"
 	db 1,8
 	dw 200
 	text_far _SquirtleDexEntry
 	text_end
 
 CharmeleonDexEntry:
-	db "FLAME@"
+	db "LOGI@"
 	db 3,7
 	dw 420
 	text_far _CharmeleonDexEntry
 	text_end
 
 WartortleDexEntry:
-	db "TURTLE@"
+	db "SJALDBAKA@"
 	db 3,3
 	dw 500
 	text_far _WartortleDexEntry
 	text_end
 
 CharizardDexEntry:
-	db "FLAME@"
+	db "LOGI@"
 	db 5,7
 	dw 2000
 	text_far _CharizardDexEntry
@@ -1227,14 +1227,14 @@ GloomDexEntry:
 	text_end
 
 VileplumeDexEntry:
-	db "FLOWER@"
+	db "BLÓM@"
 	db 3,11
 	dw 410
 	text_far _VileplumeDexEntry
 	text_end
 
 BellsproutDexEntry:
-	db "FLOWER@"
+	db "BLÓM@"
 	db 2,4
 	dw 90
 	text_far _BellsproutDexEntry
