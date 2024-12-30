@@ -9,8 +9,8 @@ _Route3Text1::
 	done
 
 _Route3Youngster1BattleText::
-	text "Hey! I met you in"
-	line "VIRIDIAN FOREST!"
+	text "Hey! Ég hitti þig"
+	line "í SÍGRÆNNUM SKÓGI!"
 	done
 
 _Route3Youngster1EndBattleText::
@@ -26,8 +26,9 @@ _Route3Youngster1AfterBattleText::
 	done
 
 _Route3Youngster2BattleText::
-	text "Hi! I like shorts!"
-	line "They're comfy and"
+	text "Hæ! Mér líkar"
+	line "stuttbuxur!"
+	cont "They're comfy and"
 	cont "easy to wear!"
 	done
 
