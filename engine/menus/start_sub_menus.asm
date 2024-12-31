@@ -569,7 +569,7 @@ TrainerInfo_FarCopyData:
 	jp FarCopyData2
 
 TrainerInfo_NameMoneyTimeText:
-	db   "NAME/"
+	db   "NAFN/"
 	next "MONEY/"
 	next "TIME/@"
 
