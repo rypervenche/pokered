@@ -1694,13 +1694,13 @@ _LinkCanceledText::
 	done
 
 _OakSpeechText1::
-	text "Hello there!"
-	line "Welcome to the"
-	cont "world of #MON!"
+	text "Sæl(l)!"
+	line "Velkomin í"
+	cont "heiminn #MON!"
 
-	para "My name is OAK!"
-	line "People call me"
-	cont "the #MON PROF!"
+	para "Ég heiti EIK!"
+	line "Fólk heitir mig"
+	cont "#MON PRÓFinn!"
 	prompt
 
 _OakSpeechText2A::
@@ -1725,8 +1725,8 @@ _OakSpeechText2B::
 	prompt
 
 _IntroducePlayerText::
-	text "First, what is"
-	line "your name?"
+	text "Fyrst, hvað"
+	line "heitirðu?"
 	prompt
 
 _IntroduceRivalText::
