@@ -570,8 +570,8 @@ TrainerInfo_FarCopyData:
 
 TrainerInfo_NameMoneyTimeText:
 	db   "NAFN/"
-	next "MONEY/"
-	next "TIME/@"
+	next "PENINGUR/"
+	next "TÍMI/@"
 
 ; $76 is a circle tile
 TrainerInfo_BadgesText:
