@@ -1,6 +1,8 @@
 _Route1Youngster1MartSampleText::
-	text "Hi! I work at a"
-	line "#MON MART."
+	; text "Hi! I work at a"
+	; line "#MON MART."
+	text "Hæ! Ég vinn á"
+	line "#MON-KAUP."
 
 	para "It's a convenient"
 	line "shop, so please"
@@ -44,7 +46,8 @@ _Route1Youngster2Text::
 	done
 
 _Route1SignText::
-	text "ROUTE 1"
+	; text "ROUTE 1"
+	; TODO
 	line "PALLET TOWN -"
 	cont "VIRIDIAN CITY"
 	done
