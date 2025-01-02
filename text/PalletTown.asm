@@ -45,6 +45,7 @@ _PalletTownFisherText::
 	text "Tækni er"
 	line "ótrúlegt!"
 
+	; TODO
 	para "You can now store"
 	line "and recall items"
 	cont "and #MON as"
@@ -63,6 +64,7 @@ _PalletTownOaksLabSignText::
 	done
 
 _PalletTownSignText::
+	; TODO
 	; text "HREINHVÍTBÆR"
 	text "PALLET TOWN"
 	line "Shades of your"

@@ -44,20 +44,27 @@ _OaksLabYouWantBulbasaurText::
 	done
 
 _OaksLabMonEnergeticText::
-	text "This #MON is"
-	line "really energetic!"
+	; text "This #MON is"
+	; line "really energetic!"
+	text "Þessi #MON er"
+	line "mjög orkumikill!"
 	prompt
 
 _OaksLabReceivedMonText::
-	text "<PLAYER> received"
-	line "a @"
+	; text "<PLAYER> received"
+	; line "a @"
+	text "<PLAYER> fékk"
+	line "@"
 	text_ram wNameBuffer
 	text "!@"
 	text_end
 
 _OaksLabLastMonText::
-	text "That's PROF.OAK's"
-	line "last #MON!"
+	; text "That's PROF.OAK's"
+	; line "last #MON!"
+	text "Þetta er síðasti"
+	line "#MONinn"
+	cont "PRÓF.EIKar!"
 	done
 
 _OaksLabOak1WhichPokemonDoYouWantText::
@@ -241,8 +248,10 @@ _OaksLabRivalIllTakeThisOneText::
 	done
 
 _OaksLabRivalReceivedMonText::
-	text "<RIVAL> received"
-	line "a @"
+	; text "<RIVAL> received"
+	; line "a @"
+	text "<RIVAL> fékk"
+	line "@"
 	text_ram wNameBuffer
 	text "!@"
 	text_end
