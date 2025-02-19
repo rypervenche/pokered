@@ -1694,9 +1694,17 @@ _LinkCanceledText::
 	done
 
 _OakSpeechText1::
-	text "Sæl(l)!"
+	; text "Hello there!"
+	; line "Welcome to the"
+	; cont "world of #MON!"
+
+	; para "My name is OAK!"
+	; line "People call me"
+	; cont "the #MON PROF!"
+	; prompt
+	text "Hæ!"
 	line "Velkomin í"
-	cont "heiminn #MON!"
+	cont "heiminn #MONa!"
 
 	para "Ég heiti EIK!"
 	line "Fólk heitir mig"

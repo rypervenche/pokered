@@ -26,10 +26,13 @@ _Route3Youngster1AfterBattleText::
 	done
 
 _Route3Youngster2BattleText::
-	text "Hæ! Mér líkar"
-	line "stuttbuxur!"
-	cont "They're comfy and"
-	cont "easy to wear!"
+	; text "Hi! I like shorts!"
+	; line "They're comfy and"
+	; cont "easy to wear!"
+	text "Hæ! Mér finnast"
+	line "stuttbuxur góðar!"
+	cont "Þær eru þægilegar og"
+	cont "auðvelðar að klæðast!"
 	done
 
 _Route3Youngster2EndBattleText::
