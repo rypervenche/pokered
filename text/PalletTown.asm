@@ -9,36 +9,37 @@ _PalletTownOakItsUnsafeText::
 	cont "Villtir #MONar"
 	cont "búa í háu grasi!"
 
-	para "Þú þarft þinn"
-	line "eigin #MON til"
-	cont "að vernda þig."
-	cont "Ég veit!"
 	; para "You need your own"
 	; line "#MON for your"
 	; cont "protection."
 	; cont "I know!"
+	para "Þú þarft þinn"
+	line "eigin #MONa"
+	cont "til að vernda"
+	cont "þig."
+	cont "Ég veit!"
 
-	para "Hérna, komdu með"
-	line "mér!"
 	; para "Here, come with"
 	; line "me!"
+	para "Hérna, komdu með"
+	line "mér!"
 	done
 
 _PalletTownGirlText::
-	text "Ég er líka að ala"
-	line "upp #MONa!"
 	; text "I'm raising"
 	; line "#MON too!"
+	text "Ég er líka að ala"
+	line "#MONa upp!"
 
-	para "Þegar þeir verða"
-	line "sterkir, geta"
-	cont "þeir verndað mig!"
 	; cont "mig!"
 	; line "sterkir, geta þeir"
 	; cont "verndað mig!"
 	; para "When they get"
 	; line "strong, they can"
 	; cont "protect me!"
+	para "Þegar þeir verða"
+	line "sterkir, geta"
+	cont "þeir verndað mig!"
 	done
 
 _PalletTownFisherText::
