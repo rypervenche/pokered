@@ -1538,18 +1538,24 @@ _WithdrewItemText::
 	prompt
 
 _NothingStoredText::
-	text "There is nothing"
-	line "stored."
+	; text "There is nothing"
+	; line "stored."
+	text "Það er ekkert"
+	line "geymt."
 	prompt
 
 _CantCarryMoreText::
-	text "You can't carry"
-	line "any more items."
+	; text "You can't carry"
+	; line "any more items."
+	text "Þú getur ekki"
+	line "borinn fleiri"
+	cont "hluti."
 	prompt
 
 _WhatToTossText::
-	text "What do you want"
-	line "to toss away?"
+	; text "What do you want"
+	; line "to toss away?"
+	text "Hvað viltu henda?"
 	done
 
 _TossHowManyText::
@@ -1566,7 +1572,8 @@ _AccessedHoFPCText::
 	prompt
 
 _SwitchOnText::
-	text "Switch on!"
+	; text "Switch on!"
+	text "Kveikja á!"
 	prompt
 
 _WhatText::
@@ -1575,8 +1582,10 @@ _WhatText::
 	done
 
 _DepositWhichMonText::
-	text "Deposit which"
-	line "#MON?"
+	; text "Deposit which"
+	; line "#MON?"
+	text "Leggja hvaða"
+	line "#MON inn?"
 	done
 
 _MonWasStoredText::
@@ -1588,8 +1597,11 @@ _MonWasStoredText::
 	prompt
 
 _CantDepositLastMonText::
-	text "You can't deposit"
-	line "the last #MON!"
+	; text "You can't deposit"
+	; line "the last #MON!"
+	text "Þú mátt ekki"
+	line "leggja síðasta"
+	cont "#MON inn!"
 	prompt
 
 _BoxFullText::
