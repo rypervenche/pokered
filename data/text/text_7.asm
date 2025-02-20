@@ -27,15 +27,18 @@ _GotOffBicycleText2::
 	prompt
 
 _ThrewAwayItemText::
-	text "Threw away"
-	line "@"
+	; text "Threw away"
+	text "@"
 	text_ram wNameBuffer
-	text "."
+	text " hent."
 	prompt
 
 _IsItOKToTossItemText::
-	text "Is it OK to toss"
-	line "@"
+	; text "Is it OK to toss"
+	; line "@"
+	text "Er það í lagi að"
+	line "henda"
+	cont "@"
 	text_ram wStringBuffer
 	text "?"
 	prompt
