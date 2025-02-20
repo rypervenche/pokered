@@ -20,9 +20,13 @@ _OaksLabRivalMyPokemonLooksStrongerText::
 	done
 
 _OaksLabThoseArePokeBallsText::
-	text "Those are #"
-	line "BALLs. They"
-	cont "contain #MON!"
+	; text "Those are #"
+	; line "BALLs. They"
+	; cont "contain #MON!"
+	text "Þetta eru #-"
+	line "BOLTAR. Þeir"
+	cont "innihalda"
+	cont "#MONa!"
 	done
 
 _OaksLabYouWantCharmanderText::
@@ -88,7 +92,8 @@ _OaksLabOak1RaiseYourYoungPokemonText::
 	done
 
 _OaksLabOak1DeliverParcelText::
-	text "OAK: Oh, <PLAYER>!"
+	; text "OAK: Oh, <PLAYER>!"
+	text "OAK: Ó, <PLAYER>!"
 
 	para "How is my old"
 	line "#MON?"
@@ -192,9 +197,12 @@ _OaksLabGirlText::
 	done
 
 _OaksLabRivalFedUpWithWaitingText::
-	text "<RIVAL>: Gramps!"
-	line "I'm fed up with"
-	cont "waiting!"
+	; text "<RIVAL>: Gramps!"
+	; line "I'm fed up with"
+	; cont "waiting!"
+	text "<RIVAL>: Afi!"
+	line "Ég er þreyttur á"
+	cont "því að bíða!"
 	done
 
 _OaksLabOakChooseMonText::
@@ -368,6 +376,10 @@ _OaksLabRivalLeaveItAllToMeText::
 	done
 
 _OaksLabScientistText::
-	text "I study #MON as"
-	line "PROF.OAK's AIDE."
+	; text "I study #MON as"
+	; line "PROF.OAK's AIDE."
+	text "Ég rannsaka"
+	line "#MON sem"
+	cont "AÐSTOÐARMAÐUR"
+	cont "PROF.EIKar."
 	done
