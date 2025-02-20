@@ -1,7 +1,11 @@
 _BluesHouseDaisyRivalAtLabText::
-	text "Hi <PLAYER>!"
-	line "<RIVAL> is out at"
-	cont "Grandpa's lab."
+	; text "Hi <PLAYER>!"
+	; line "<RIVAL> is out at"
+	; cont "Grandpa's lab."
+	text "Hæ <PLAYER>!"
+	line "<RIVAL> er út á"
+	cont "rannsóknarstofan"
+	cont "afa."
 	done
 
 _BluesHouseDaisyOfferMapText::

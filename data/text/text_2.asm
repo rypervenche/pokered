@@ -575,10 +575,15 @@ _IndigoPlateauHQText::
 	done
 
 _RedBedroomSNESText::
-	text "<PLAYER> is"
-	line "playing the SNES!"
-	cont "...Okay!"
-	cont "It's time to go!"
+	; text "<PLAYER> is"
+	; line "playing the SNES!"
+	; cont "...Okay!"
+	; cont "It's time to go!"
+	text "<PLAYER> er að"
+	line "spila á SNES!"
+	cont "...Ókei!"
+	cont "Það er kominn"
+	cont "tími til að fara!"
 	done
 
 _Route15UpstairsBinocularsText::
@@ -1440,8 +1445,10 @@ _RareCandyText::
 	text_end
 
 _TurnedOnPC1Text::
-	text "<PLAYER> turned on"
-	line "the PC."
+	; text "<PLAYER> turned on"
+	; line "the PC."
+	text "<PLAYER> ræsti"
+	line "tölvuna."
 	prompt
 
 _AccessedBillsPCText::
@@ -1468,22 +1475,28 @@ _AccessedMyPCText::
 	prompt
 
 _TurnedOnPC2Text::
-	text "<PLAYER> turned on"
-	line "the PC."
+	; text "<PLAYER> turned on"
+	; line "the PC."
+	text "<PLAYER> ræsti"
+	line "tölvuna."
 	prompt
 
 _WhatDoYouWantText::
-	text "What do you want"
-	line "to do?"
+	; text "What do you want"
+	; line "to do?"
+	text "Hvað viltu gera?"
 	done
 
 _WhatToDepositText::
-	text "What do you want"
-	line "to deposit?"
+	; text "What do you want"
+	; line "to deposit?"
+	text "Hvað viltu leggja"
+	line "inn?"
 	done
 
 _DepositHowManyText::
-	text "How many?"
+	; text "How many?"
+	text "Hversu mörg?"
 	done
 
 _ItemWasStoredText::
@@ -1503,16 +1516,22 @@ _NoRoomToStoreText::
 	prompt
 
 _WhatToWithdrawText::
-	text "What do you want"
-	line "to withdraw?"
+	; text "What do you want"
+	; line "to withdraw?"
+	text "Hvað viltu taka"
+	line "út?"
+	; text "Hvað viltu"
+	; line "taka út?"
 	done
 
 _WithdrawHowManyText::
-	text "How many?"
+	; text "How many?"
+	text "Hversu mörg?"
 	done
 
 _WithdrewItemText::
-	text "Withdrew"
+	; text "Withdrew"
+	text "Tekið út"
 	line "@"
 	text_ram wNameBuffer
 	text "."
@@ -1534,7 +1553,8 @@ _WhatToTossText::
 	done
 
 _TossHowManyText::
-	text "How many?"
+	; text "How many?"
+	text "Hversu mörg?"
 	done
 
 _AccessedHoFPCText::
@@ -1550,7 +1570,8 @@ _SwitchOnText::
 	prompt
 
 _WhatText::
-	text "What?"
+	; text "What?"
+	text "Hvað?"
 	done
 
 _DepositWhichMonText::
@@ -1702,7 +1723,7 @@ _OakSpeechText1::
 	; line "People call me"
 	; cont "the #MON PROF!"
 	; prompt
-	text "Hæ!"
+	text "Komdu sæl(l)!"
 	line "Velkomin í"
 	cont "heiminn #MONa!"
 
