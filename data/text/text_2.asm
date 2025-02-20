@@ -581,7 +581,7 @@ _RedBedroomSNESText::
 	; cont "It's time to go!"
 	text "<PLAYER> er að"
 	line "spila á SNES!"
-	cont "...Ókei!"
+	cont "...Jæja!"
 	cont "Það er kominn"
 	cont "tími til að fara!"
 	done
