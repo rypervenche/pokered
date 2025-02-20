@@ -1500,19 +1500,29 @@ _DepositHowManyText::
 	done
 
 _ItemWasStoredText::
+	; text_ram wNameBuffer
+	; text " was"
+	; line "stored via PC."
+	; prompt
 	text_ram wNameBuffer
-	text " was"
-	line "stored via PC."
+	text " var"
+	line "geymt með"
+	cont "tölvunni."
 	prompt
 
 _NothingToDepositText::
-	text "You have nothing"
-	line "to deposit."
+	; text "You have nothing"
+	; line "to deposit."
+	text "Þú hefur ekkert"
+	line "að leggja inn."
 	prompt
 
 _NoRoomToStoreText::
-	text "No room left to"
-	line "store items."
+	; text "No room left to"
+	; line "store items."
+	text "Það er ekkert"
+	line "pláss til að"
+	cont "geyma hluti"
 	prompt
 
 _WhatToWithdrawText::
@@ -1531,10 +1541,14 @@ _WithdrawHowManyText::
 
 _WithdrewItemText::
 	; text "Withdrew"
-	text "Tekið út"
-	line "@"
+	; line "@"
+	; text_ram wNameBuffer
+	; text "."
+	; prompt
+	text "@"
 	text_ram wNameBuffer
-	text "."
+	text ""
+	line "tekið út."
 	prompt
 
 _NothingStoredText::
@@ -1599,14 +1613,16 @@ _MonWasStoredText::
 _CantDepositLastMonText::
 	; text "You can't deposit"
 	; line "the last #MON!"
-	text "Þú mátt ekki"
-	line "leggja síðasta"
+	text "Þú getur ekki"
+	line "lagt síðasta"
 	cont "#MON inn!"
 	prompt
 
 _BoxFullText::
-	text "Oops! This Box is"
-	line "full of #MON."
+	; text "Oops! This Box is"
+	; line "full of #MON."
+	text "Úps! Þekki kassi"
+	line "er fullur af #MON." ; TODO: Test that this doesn't go over the edge
 	prompt
 
 _MonIsTakenOutText::
@@ -1619,20 +1635,30 @@ _MonIsTakenOutText::
 	prompt
 
 _NoMonText::
-	text "What? There are"
-	line "no #MON here!"
+	; text "What? There are"
+	; line "no #MON here!"
+	text "Hvað? Það eru"
+	line "engir #MON hérna!"
 	prompt
 
 _CantTakeMonText::
-	text "You can't take"
-	line "any more #MON."
+	; text "You can't take"
+	; line "any more #MON."
 
-	para "Deposit #MON"
-	line "first."
+	; para "Deposit #MON"
+	; line "first."
+	; prompt
+	text "Þú getur ekki"
+	line "fleiri #MON."
+
+	para "Leggja #MON"
+	line "fyrst inn."
 	prompt
 
 _ReleaseWhichMonText::
-	text "Release which"
+	; text "Release which"
+	; line "#MON?"
+	text "Sleppa hvaða"
 	line "#MON?"
 	done
 
