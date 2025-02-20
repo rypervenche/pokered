@@ -241,10 +241,14 @@ PlayerPCToss:
 	jp .loop
 
 PlayersPCMenuEntries:
-	db   "WITHDRAW ITEM"
-	next "DEPOSIT ITEM"
-	next "TOSS ITEM"
-	next "LOG OFF@"
+	; db   "WITHDRAW ITEM"
+	; next "DEPOSIT ITEM"
+	; next "TOSS ITEM"
+	; next "LOG OFF@"
+	db   "TAKA ÚT HLUT"
+	next "LGGJA HLUT IN"
+	next "HENDA HLUT"
+	next "SKRÁ ÚT@"
 
 TurnedOnPC2Text:
 	text_far _TurnedOnPC2Text

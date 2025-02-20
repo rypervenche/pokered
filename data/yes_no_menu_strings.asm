@@ -26,21 +26,21 @@ TwoOptionMenuStrings:
 	next "NEI@"
 
 .NorthWestMenu:
-	db   "NORTH"
-	next "WEST@"
+	db   "NORÐUR"
+	next "VESTUR@"
 
 .SouthEastMenu:
-	db   "SOUTH"
-	next "EAST@"
+	db   "SUÐUR"
+	next "AUSTUR@"
 
 .NorthEastMenu:
-	db   "NORTH"
-	next "EAST@"
+	db   "NORÐUR"
+	next "AUSTUR@"
 
 .TradeCancelMenu:
 	db   "TRADE"
-	next "CANCEL@"
+	next "HÆTTI VIÐ@"
 
 .HealCancelMenu:
 	db   "HEAL"
-	next "CANCEL@"
+	next "HÆTTI VIÐ@"

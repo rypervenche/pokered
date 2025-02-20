@@ -85,12 +85,18 @@ DisplayPCMainMenu::
 	ldh [hAutoBGTransferEnabled], a
 	ret
 
-SomeonesPCText:   db "SOMEONE's PC@"
-BillsPCText:      db "BILL's PC@"
-PlayersPCText:    db "'s PC@"
-OaksPCText:       db "PROF.OAK's PC@"
+; SomeonesPCText:   db "SOMEONE's PC@"
+; BillsPCText:      db "BILL's PC@"
+; PlayersPCText:    db "'s PC@"
+; OaksPCText:       db "PROF.OAK's PC@"
+; PKMNLeaguePCText: db "<PKMN>LEAGUE@"
+; LogOffPCText:     db "LOG OFF@"
+SomeonesPCText:   db "TÖLVAN EINHVERS@"
+BillsPCText:      db "TÖLVAN BILLs@"
+PlayersPCText:    db "TÖLVAN @"
+OaksPCText:       db "TÖLVAN PRÓF.EIKar@"
 PKMNLeaguePCText: db "<PKMN>LEAGUE@"
-LogOffPCText:     db "LOG OFF@"
+LogOffPCText:     db "SKRÁ ÚT@"
 
 BillsPC_::
 	ld hl, wStatusFlags5
@@ -446,11 +452,11 @@ DisplayDepositWithdrawMenu:
 	call LoadGBPal
 	jr .loop
 
-DepositPCText:  db "DEPOSIT@"
-WithdrawPCText: db "WITHDRAW@"
+DepositPCText:  db "LEGGJA INN@"
+WithdrawPCText: db "TAKA ÚT@"
 StatsCancelPCText:
-	db   "STATS"
-	next "CANCEL@"
+	db   "TÖLUR"
+	next "HÆTTA VIÐ@"
 
 SwitchOnText:
 	text_far _SwitchOnText
