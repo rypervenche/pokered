@@ -206,26 +206,42 @@ _OaksLabRivalFedUpWithWaitingText::
 	done
 
 _OaksLabOakChooseMonText::
-	text "OAK: <RIVAL>?"
-	line "Let me think..."
+	; text "OAK: <RIVAL>?"
+	; line "Let me think..."
+	text "EIK: <RIVAL>?"
+	line "Leyfðu mér að"
+	cont "hugsa..."
 
-	para "Oh, that's right,"
-	line "I told you to"
-	cont "come! Just wait!"
+	; para "Oh, that's right,"
+	; line "I told you to"
+	; cont "come! Just wait!"
+	para "Ó, það er rétt,"
+	line "Ég sagði þér að"
+	cont "koma! Biddu bara!"
 
-	para "Here, <PLAYER>!"
+	; para "Here, <PLAYER>!"
+	para "Gjörðu svo vel,"
+	line "<PLAYER>!"
 
-	para "There are 3"
-	line "#MON here!"
+	; para "There are 3"
+	; line "#MON here!"
+	para "Hér eru 3"
+	line "#MONir!"
 
 	para "Haha!"
 
-	para "They are inside"
-	line "the # BALLs."
+	; para "They are inside"
+	; line "the # BALLs."
+	para "Þeir eru inni í"
+	line "#-BOLTunum."
 
-	para "When I was young,"
-	line "I was a serious"
-	cont "#MON trainer!"
+	; para "When I was young,"
+	; line "I was a serious"
+	; cont "#MON trainer!"
+	para "Þegar ég var"
+	line "ungur, ég var"
+	cont "alvalegur"
+	cont "#MON-þjálfari!"
 
 	para "In my old age, I"
 	line "have only 3 left,"
