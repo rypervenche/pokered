@@ -14,9 +14,13 @@ _OaksLabRivalGoAheadAndChooseText::
 	done
 
 _OaksLabRivalMyPokemonLooksStrongerText::
-	text "<RIVAL>: My"
-	line "#MON looks a"
-	cont "lot stronger."
+	; text "<RIVAL>: My"
+	; line "#MON looks a"
+	; cont "lot stronger."
+	text "<RIVAL>:"
+	line "#MON minn lítur"
+	cont "miklu sterkari"
+	cont "út."
 	done
 
 _OaksLabThoseArePokeBallsText::
@@ -31,19 +35,19 @@ _OaksLabThoseArePokeBallsText::
 
 _OaksLabYouWantCharmanderText::
 	text "Svo! Þú vilt"
-	line "eld-#MONið,"
+	line "eld-#MONann,"
 	cont "GLÓÐMANDRA?"
 	done
 
 _OaksLabYouWantSquirtleText::
 	text "Svo! Þú vilt"
-	line "vatns-#MONið,"
+	line "vatns-#MONann,"
 	cont "SPRAUTILL?"
 	done
 
 _OaksLabYouWantBulbasaurText::
 	text "Svo! Þú vilt"
-	line "plöntu-#MONið,"
+	line "plöntu-#MONann,"
 	cont "LAUKEÐLA?"
 	done
 
@@ -93,7 +97,7 @@ _OaksLabOak1RaiseYourYoungPokemonText::
 
 _OaksLabOak1DeliverParcelText::
 	; text "OAK: Oh, <PLAYER>!"
-	text "OAK: Ó, <PLAYER>!"
+	text "EIK: Ó, <PLAYER>!"
 
 	para "How is my old"
 	line "#MON?"
@@ -250,25 +254,36 @@ _OaksLabOakChooseMonText::
 	done
 
 _OaksLabRivalWhatAboutMeText::
+	; text "<RIVAL>: Hey!"
+	; line "Gramps! What"
+	; cont "about me?"
 	text "<RIVAL>: Hey!"
-	line "Gramps! What"
-	cont "about me?"
+	line "Afi! Hvað með"
+	cont "mig?"
 	done
 
 _OaksLabOakBePatientText::
-	text "OAK: Be patient!"
-	line "<RIVAL>, you can"
-	cont "have one too!"
+	; text "OAK: Be patient!"
+	; line "<RIVAL>, you can"
+	; cont "have one too!"
+	text "EIK: Vertu"
+	line "þolinmðdur!"
+	cont "<RIVAL>, þú mátt"
+	cont "eiga einn líka!"
 	done
 
 _OaksLabOakDontGoAwayYetText::
-	text "OAK: Hey! Don't go"
-	line "away yet!"
+	; text "OAK: Hey! Don't go"
+	; line "away yet!"
+	text "EIK: Hey! Ekki"
+	line "fara ennþá!"
 	done
 
 _OaksLabRivalIllTakeThisOneText::
-	text "<RIVAL>: I'll take"
-	line "this one, then!"
+	; text "<RIVAL>: I'll take"
+	; line "this one, then!"
+	text "<RIVAL>: Þá ég"
+	line "taka þennan!"
 	done
 
 _OaksLabRivalReceivedMonText::
@@ -281,20 +296,30 @@ _OaksLabRivalReceivedMonText::
 	text_end
 
 _OaksLabRivalIllTakeYouOnText::
-	text "<RIVAL>: Wait"
+	; text "<RIVAL>: Wait"
+	; line "<PLAYER>!"
+	; cont "Let's check out"
+	; cont "our #MON!"
+	text "<RIVAL>: Biddu"
 	line "<PLAYER>!"
-	cont "Let's check out"
-	cont "our #MON!"
+	cont "Skoðum #MONana"
+	cont "okkur!"
 
-	para "Come on, I'll take"
-	line "you on!"
+	; para "Come on, I'll take"
+	; line "you on!"
+	para "Komdu, ég mun"
+	line "keppa þig!"
 	done
 
 _OaksLabRivalIPickedTheWrongPokemonText::
-	text "WHAT?"
-	line "Unbelievable!"
-	cont "I picked the"
-	cont "wrong #MON!"
+	; text "WHAT?"
+	; line "Unbelievable!"
+	; cont "I picked the"
+	; cont "wrong #MON!"
+	text "HVAÐ?"
+	line "Ótrúlegt!"
+	cont "Ég valdi ranga"
+	cont "#MONa!"
 	prompt
 
 _OaksLabRivalAmIGreatOrWhatText::
@@ -313,7 +338,8 @@ _OaksLabRivalSmellYouLaterText::
 	done
 
 _OaksLabRivalGrampsText::
-	text "<RIVAL>: Gramps!"
+	; text "<RIVAL>: Gramps!"
+	text "<RIVAL>: Afi!"
 	done
 
 _OaksLabRivalWhatDidYouCallMeForText::

@@ -1820,11 +1820,16 @@ _OakSpeechText3::
 	done
 
 _DoYouWantToNicknameText::
-	text "Do you want to"
-	line "give a nickname"
-	cont "to @"
+	; text "Do you want to"
+	; line "give a nickname"
+	; cont "to @"
+	; text_ram wNameBuffer
+	; text "?"
+	text "Viltu gefa"
+	line "@"
 	text_ram wNameBuffer
-	text "?"
+	text ""
+	cont "gælunafn?"
 	done
 
 _YourNameIsText::
