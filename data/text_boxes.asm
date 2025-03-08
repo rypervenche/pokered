@@ -76,7 +76,7 @@ SafariZoneBattleMenuText:
 SwitchStatsCancelText:
 	db   "SKIPTA"
 	next "TÖLUR"
-	next "HÆTTA VIÐ@"
+	next "HÆTTA@"
 
 JapaneseAhText:
 	db "アッ！@"

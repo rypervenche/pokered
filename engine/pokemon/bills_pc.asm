@@ -456,7 +456,7 @@ DepositPCText:  db "LEGGJA INN@"
 WithdrawPCText: db "TAKA ÚT@"
 StatsCancelPCText:
 	db   "TÖLUR"
-	next "HÆTTA VIÐ@"
+	next "HÆTTA@"
 
 SwitchOnText:
 	text_far _SwitchOnText
