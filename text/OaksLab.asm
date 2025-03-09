@@ -29,7 +29,7 @@ _OaksLabThoseArePokeBallsText::
 	; cont "contain #MON!"
 	; text "Þetta eru #-"
 	text "Þetta eru"
-	line "#KULUR. Þeir"
+	line "#KÚLUR. Þeir"
 	cont "innihalda"
 	cont "#MONa!"
 	done
@@ -238,7 +238,7 @@ _OaksLabOakChooseMonText::
 	; para "They are inside"
 	; line "the # BALLs."
 	para "Þeir eru inni í"
-	line "#KULunum."
+	line "#KÚLunum."
 
 	; para "When I was young,"
 	; line "I was a serious"
@@ -268,7 +268,7 @@ _OaksLabOakBePatientText::
 	; line "<RIVAL>, you can"
 	; cont "have one too!"
 	text "EIK: Vertu"
-	line "þolinmðdur!"
+	line "þolinmóður!"
 	cont "<RIVAL>, þú mátt"
 	cont "eiga einn líka!"
 	done
@@ -320,7 +320,7 @@ _OaksLabRivalIPickedTheWrongPokemonText::
 	text "HVAÐ?"
 	line "Ótrúlegt!"
 	cont "Ég valdi ranga"
-	cont "#MONa!"
+	cont "#MONann!"
 	prompt
 
 _OaksLabRivalAmIGreatOrWhatText::
@@ -422,7 +422,7 @@ _OaksLabScientistText::
 	; text "I study #MON as"
 	; line "PROF.OAK's AIDE."
 	text "Ég rannsaka"
-	line "#MON sem"
+	line "#MONa sem"
 	cont "AÐSTOÐARMAÐUR"
 	cont "PROF.EIKar."
 	done
