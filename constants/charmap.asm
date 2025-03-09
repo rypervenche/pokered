@@ -334,7 +334,7 @@
 	charmap "Ý", $c6
 	charmap "Þ", $c7
 	charmap "Æ", $c8
-	charmap "Ö", $c9
+	charmap "Ö", $ca
 
 	charmap "á", $d0
 	charmap "ð", $d1
@@ -345,7 +345,7 @@
 	charmap "ý", $d6
 	charmap "þ", $d7
 	charmap "æ", $d8
-	charmap "ö", $d9
+	charmap "ö", $da
 
 	charmap "た", $c0
 	charmap "ち", $c1
