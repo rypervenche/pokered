@@ -221,7 +221,7 @@ _OaksLabOakChooseMonText::
 	; line "I told you to"
 	; cont "come! Just wait!"
 	para "Ó, það er rétt,"
-	line "Ég sagði þér að"
+	line "ég sagði þér að"
 	cont "koma! Biddu bara!"
 
 	; para "Here, <PLAYER>!"
