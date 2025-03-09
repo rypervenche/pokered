@@ -283,8 +283,8 @@ _OaksLabOakDontGoAwayYetText::
 _OaksLabRivalIllTakeThisOneText::
 	; text "<RIVAL>: I'll take"
 	; line "this one, then!"
-	text "<RIVAL>: Þá ég"
-	line "taka þennan!"
+	text "<RIVAL>: Þá taka"
+	line "ég þennan!"
 	done
 
 _OaksLabRivalReceivedMonText::
