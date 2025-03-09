@@ -72,7 +72,7 @@ _OaksLabLastMonText::
 	; text "That's PROF.OAK's"
 	; line "last #MON!"
 	text "Þetta er síðasti"
-	line "#MONinn"
+	line "#MON"
 	cont "PRÓF.EIKar!"
 	done
 
