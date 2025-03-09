@@ -18,17 +18,18 @@ _OaksLabRivalMyPokemonLooksStrongerText::
 	; line "#MON looks a"
 	; cont "lot stronger."
 	text "<RIVAL>:"
-	line "#MON minn lítur"
-	cont "miklu sterkari"
-	cont "út."
+	line "#MON minn"
+	cont "lítur miklu"
+	cont "sterkari út."
 	done
 
 _OaksLabThoseArePokeBallsText::
 	; text "Those are #"
 	; line "BALLs. They"
 	; cont "contain #MON!"
-	text "Þetta eru #-"
-	line "BOLTAR. Þeir"
+	; text "Þetta eru #-"
+	text "Þetta eru"
+	line "#KULUR. Þeir"
 	cont "innihalda"
 	cont "#MONa!"
 	done
@@ -237,7 +238,7 @@ _OaksLabOakChooseMonText::
 	; para "They are inside"
 	; line "the # BALLs."
 	para "Þeir eru inni í"
-	line "#-BOLTunum."
+	line "#KULunum."
 
 	; para "When I was young,"
 	; line "I was a serious"

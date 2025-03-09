@@ -1,9 +1,9 @@
 ItemNames::
 	list_start
-	li "MEISTARABOLTI"
+	li "MEISTARAKÚLA"
 	li "ULTRA BALL"
 	li "GREAT BALL"
-	li "POKéBOLTI"
+	li "POKéKÚLA"
 	li "BÆRJARKORT"
 	li "REIÐHJÓL"
 	li "?????" ; SURFBOARD

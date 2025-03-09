@@ -70,7 +70,7 @@ BattleMenuText:
 	next "HLTR FLÝ@"
 
 SafariZoneBattleMenuText:
-	db   "BOLTI×       BAIT"
+	db   "KÚLA×       BAIT"
 	next "THROW ROCK  FLÝJA@"
 
 SwitchStatsCancelText:
