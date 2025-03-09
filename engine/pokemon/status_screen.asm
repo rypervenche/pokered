@@ -205,26 +205,31 @@ NamePointers2:
 	dw wDayCareMonName
 
 Type1Text:
-	db   "TYPE1/"
+	; db   "TYPE1/"
+	db   "TGND1/" ; TEGUND1
 	next ""
 	; fallthrough
 Type2Text:
-	db   "TYPE2/"
+	; db   "TYPE2/"
+	db   "TGND2/" ; TEGUND2
 	next ""
 	; fallthrough
 IDNoText:
-	db   "<ID>№/"
+	; db   "<ID>№/"
+	db   "AK№/" ; AUÐKENNI№
 	next ""
 	; fallthrough
 OTText:
-	db   "OT/"
+	; db   "OT/"
+	db   "UÞ/" ; Upprunalegur Þjálfari
 	next "@"
 
 StatusText:
-	db "STATUS/@"
+	; db "STATUS/@"
+	db "ÁSTAND/@"
 
 OKText:
-	db "OK@"
+	db "ÓK@" ; OK
 
 ; Draws a line starting from hl high b and wide c
 DrawLineBox:
@@ -290,10 +295,10 @@ PrintStat:
 	ret
 
 StatsText:
-	db   "ATTACK"
-	next "DEFENSE"
-	next "SPEED"
-	next "SPECIAL@"
+	db   "ÁRÁS"
+	next "VÖRN"
+	next "HRAÐI"
+	next "SÉRSTAKT@"
 
 StatusScreen2:
 	ldh a, [hTileAnimations]
@@ -400,7 +405,8 @@ StatusScreen2:
 	ld [wLoadedMonLevel], a ; Increase temporarily if not 100
 .Level100
 	hlcoord 14, 6
-	ld [hl], "<to>"
+	; ld [hl], "<to>"
+	ld [hl], "á"
 	inc hl
 	inc hl
 	call PrintLevel
@@ -464,8 +470,10 @@ CalcExpToLevelUp:
 	ret
 
 StatusScreenExpText:
-	db   "EXP POINTS"
-	next "LEVEL UP@"
+	; db   "EXP POINTS"
+	; next "LEVEL UP@"
+	db   "REYNSLPKT@"
+	next "STÍGA UPP@"
 
 StatusScreen_ClearName:
 	ld bc, 10
