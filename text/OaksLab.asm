@@ -231,7 +231,7 @@ _OaksLabOakChooseMonText::
 	; para "There are 3"
 	; line "#MON here!"
 	para "Hér eru 3"
-	line "#MONir!"
+	line "#MONar!"
 
 	para "Haha!"
 
