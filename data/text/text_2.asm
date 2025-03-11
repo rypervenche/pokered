@@ -1363,7 +1363,7 @@ _WhichFloorText::
 	done
 
 _PartyMenuNormalText::
-	text "Velja #MON."
+	text "Velja #MONa."
 	done
 
 _PartyMenuItemUseText::
