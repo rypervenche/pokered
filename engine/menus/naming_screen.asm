@@ -473,21 +473,23 @@ PrintNamingText:
 	ld de, NicknameTextString
 	jr .placeString
 .notNickname
+	push de
+	ld de, NameTextString
 	call PlaceString
+	pop de
 	ld l, c
 	ld h, b
-	ld de, NameTextString
 .placeString
 	jp PlaceString
 
 YourTextString:
-	db "YOUR @"
+	db "ÞITT?@"
 
 RivalsTextString:
-	db "RIVAL's @"
+	db "KEPPINAUTAR?@"
 
 NameTextString:
-	db "NAME?@"
+	db "NAFN @"
 
 NicknameTextString:
-	db "NICKNAME?@"
+	db "GÆLUNAFN?@"
