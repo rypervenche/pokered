@@ -3,7 +3,7 @@ DefaultNamesPlayerList:
 	db "NÝTT NAFN@"
 	db "RAUÐUR@"
 	db "ASH@"
-	db "SIGURÐUR@"
+	db "MAGNÚS@"
 
 DefaultNamesRivalList:
 	db "NÝTT NAFN@"
@@ -23,5 +23,5 @@ DefaultNamesRivalList:
 	db "NÝTT NAFN@"
 	db "RAUÐUR@"
 	db "ASH@"
-	db "SIGURÐUR@"
+	db "MAGNÚS@"
 ENDC
