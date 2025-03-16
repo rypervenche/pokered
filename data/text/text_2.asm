@@ -7,12 +7,22 @@ _AIBattleWithdrawText::
 	prompt
 
 _AIBattleUseItemText::
+	; text_ram wTrainerName
+	; text_start
+	; line "used @"
+	; text_ram wNameBuffer
+	; text_start
+	; cont "on @"
+	; text_ram wEnemyMonNick
+	; text "!"
+	; prompt
 	text_ram wTrainerName
 	text_start
-	line "used @"
+	line "notaði"
+	cont "@"
 	text_ram wNameBuffer
 	text_start
-	cont "on @"
+	cont "á @"
 	text_ram wEnemyMonNick
 	text "!"
 	prompt
@@ -926,9 +936,15 @@ _TrainerAboutToUseText::
 	done
 
 _TrainerSentOutText::
+	; text_ram wTrainerName
+	; text " sent"
+	; line "out @"
+	; text_ram wEnemyMonNick
+	; text "!"
+	; done
 	text_ram wTrainerName
-	text " sent"
-	line "out @"
+	text " sendi"
+	line "út @"
 	text_ram wEnemyMonNick
 	text "!"
 	done
@@ -1086,12 +1102,14 @@ _MonName1Text::
 
 _Used1Text::
 	text_start
-	line "used @"
+	line "notaði"
+	cont "@"
 	text_end
 
 _Used2Text::
 	text_start
-	line "used @"
+	line "notaði"
+	cont "@"
 	text_end
 
 _InsteadText::
@@ -1260,9 +1278,13 @@ _EnemyAppearedText::
 	prompt
 
 _TrainerWantsToFightText::
+	; text_ram wTrainerName
+	; text " wants"
+	; line "to fight!"
+	; prompt
 	text_ram wTrainerName
-	text " wants"
-	line "to fight!"
+	text " vill"
+	line "berjast!"
 	prompt
 
 _UnveiledGhostText::
@@ -1277,7 +1299,9 @@ _GhostCantBeIDdText::
 	prompt
 
 _GoText::
-	text "Go! @"
+	; text "Go! @"
+	; text_end
+	text "Farðu! @"
 	text_end
 
 _DoItText::

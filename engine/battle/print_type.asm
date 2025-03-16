@@ -28,7 +28,7 @@ EraseType2Text:
 	ld a, " "
 	ld bc, $13
 	add hl, bc
-	ld bc, $6
+	ld bc, $8
 	jp FillMemory
 
 PrintMoveType:

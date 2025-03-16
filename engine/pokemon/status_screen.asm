@@ -210,12 +210,12 @@ NamePointers2:
 
 Type1Text:
 	; db   "TYPE1/"
-	db   "TGND1/" ; TEGUND1
+	db   "TEGUND1/" ; TEGUND1
 	next ""
 	; fallthrough
 Type2Text:
 	; db   "TYPE2/"
-	db   "TGND2/" ; TEGUND2
+	db   "TEGUND2/" ; TEGUND2
 	next ""
 	; fallthrough
 IDNoText:
@@ -476,7 +476,7 @@ CalcExpToLevelUp:
 StatusScreenExpText:
 	; db   "EXP POINTS"
 	; next "LEVEL UP@"
-	db   "REYNSLPKT@"
+	db   "REYNSLA@"
 	next "STÍGA UPP@"
 
 StatusScreen_ClearName:

@@ -59,6 +59,7 @@ DrawStartMenu::
 	res BIT_NO_TEXT_DELAY, [hl]
 	ret
 
+; Max 7
 StartMenuPokedexText:
 	db "POKéDEX@"
 
@@ -66,19 +67,24 @@ StartMenuPokemonText:
 	db "POKéMON@"
 
 StartMenuItemText:
-	db "ITEM@"
+	; db "ITEM@"
+	db "HLUTIR@"
 
 StartMenuSaveText:
-	db "SAVE@"
+	; db "SAVE@"
+	db "VISTA@"
 
 StartMenuResetText:
-	db "RESET@"
+	; db "RESET@"
+	db "ENDUR@"
 
 StartMenuExitText:
-	db "EXIT@"
+	; db "EXIT@"
+	db "HÆTTA@"
 
 StartMenuOptionText:
-	db "OPTION@"
+	; db "OPTION@"
+	db "VALKO@"
 
 PrintStartMenuItem:
 	push hl

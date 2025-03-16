@@ -25,7 +25,7 @@ ENDR
 
 	assert_table_length NUM_TYPES
 
-.Normal:   db "NORMAL@"
+.Normal:   db "VENJULGT@"
 .Fighting: db "FIGHTING@"
 .Flying:   db "FLUG@"
 .Poison:   db "EITUR@"

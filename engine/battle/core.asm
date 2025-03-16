@@ -2886,7 +2886,7 @@ PrintMenuItem:
 	call PlaceString
 	hlcoord 7, 11
 	ld [hl], "/"
-	hlcoord 5, 9
+	hlcoord 7, 9
 	ld [hl], "/"
 	hlcoord 5, 11
 	ld de, wBattleMenuCurrentPP
@@ -2908,7 +2908,8 @@ DisabledText:
 	db "disabled!@"
 
 TypeText:
-	db "TYPE@"
+	; db "TYPE@"
+	db "TEGUND@"
 
 SelectEnemyMove:
 	ld a, [wLinkState]

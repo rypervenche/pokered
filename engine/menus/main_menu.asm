@@ -594,16 +594,23 @@ DisplayOptionMenu:
 	jp .eraseOldMenuCursor
 
 TextSpeedOptionText:
-	db   "TEXT SPEED"
-	next " FAST  MEDIUM SLOW@"
+	; db   "TEXT SPEED"
+	; next " FAST  MEDIUM SLOW@"
+	db   "TEXTAHRAÐI"
+	; next " HRATT MIÐLUNGS HÆGT@"
+	next " HRATT MIÐLGS HÆGT@"
 
 BattleAnimationOptionText:
-	db   "BATTLE ANIMATION"
-	next " ON       OFF@"
+	; db   "BATTLE ANIMATION"
+	; next " ON       OFF@"
+	db   "BARDAGAHREYFIMYND"
+	next " KVEIKT   SLÖKKT@"
 
 BattleStyleOptionText:
-	db   "BATTLE STYLE"
-	next " SHIFT    SET@"
+	; db   "BATTLE STYLE"
+	; next " SHIFT    SET@"
+	db   "BARDAGASTÍLL"
+	next " SKIPTA   FEST@"
 
 OptionMenuCancelText:
 	db "HÆTTA VIÐ@"
