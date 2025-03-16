@@ -97,10 +97,14 @@ StatusScreen:
 	ld hl, vChars2 tile $76
 	lb bc, BANK(BattleHudTiles3), 2
 	call CopyVideoDataDouble ; ─ ┘
+	ld de, OTile
+	ld hl, vChars2 tile $63
+	lb bc, BANK(OTile), 1
+	call CopyVideoDataDouble ; bold O (for OP)
 	ld de, PTile
 	ld hl, vChars2 tile $72
 	lb bc, BANK(PTile), 1
-	call CopyVideoDataDouble ; bold P (for PP)
+	call CopyVideoDataDouble ; bold P (for OP)
 	ldh a, [hTileAnimations]
 	push af
 	xor a
@@ -250,6 +254,7 @@ DrawLineBox:
 	ret
 
 PTile: INCBIN "gfx/font/P.1bpp"
+OTile: INCBIN "gfx/font/O.1bpp"
 
 PrintStatsBox:
 	ld a, d
@@ -334,8 +339,7 @@ StatusScreen2:
 	ld b, a ; Number of moves ?
 	hlcoord 11, 10
 	ld de, SCREEN_WIDTH * 2
-	ld a, "<BOLD_P>"
-	call StatusScreen_PrintPP ; Print "PP"
+	call StatusScreen_PrintOP ; Print "OP"
 	ld a, b
 	and a
 	jr z, .InitPP
@@ -481,10 +485,21 @@ StatusScreen_ClearName:
 	jp FillMemory
 
 StatusScreen_PrintPP:
-; print PP or -- c times, going down two rows each time
+; print -- c times, going down two rows each time
 	ld [hli], a
 	ld [hld], a
 	add hl, de
 	dec c
 	jr nz, StatusScreen_PrintPP
+	ret
+
+StatusScreen_PrintOP:
+; print OP c times, going down two rows each time
+	ld a, "<BOLD_O>"
+	ld [hli], a
+	ld a, "<BOLD_P>"
+	ld [hld], a
+	add hl, de
+	dec c
+	jr nz, StatusScreen_PrintOP
 	ret

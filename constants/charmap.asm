@@ -79,6 +79,11 @@
 	charmap "″",         $61 ; gfx/pokedex/pokedex.png
 
 	; needed for StatusScreen (see engine/pokemon/status_screen.asm)
+	; WARN: $63 may be used for something else
+	; WARN: $62 was used after "LÍF" and covered up ":"
+	charmap "<BOLD_O>",  $63 ; gfx/font/O.1bpp
+	;
+	; needed for StatusScreen (see engine/pokemon/status_screen.asm)
 	charmap "<BOLD_P>",  $72 ; gfx/font/P.1bpp
 
 	; needed for LoadTownMap_Fly (see engine/items/town_map.asm)
