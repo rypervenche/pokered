@@ -1786,7 +1786,7 @@ _OakSpeechText1::
 	; cont "the #MON PROF!"
 	; prompt
 	text "Komdu sæl(l)!"
-	line "Velkomin í"
+	line "Velkomin(n) í"
 	cont "heiminn #MONa!"
 
 	para "Ég heiti EIK!"
@@ -1795,24 +1795,39 @@ _OakSpeechText1::
 	prompt
 
 _OakSpeechText2A::
-	text "This world is"
-	line "inhabited by"
-	cont "creatures called"
-	cont "#MON!@"
+	; text "This world is"
+	; line "inhabited by"
+	; cont "creatures called"
+	; cont "#MON!@"
+	; text_end
+	text "Þessi heimur er"
+	line "byggður skepnum"
+	cont "sem kallast"
+	cont "#MONar!@"
 	text_end
 
 _OakSpeechText2B::
 	text_start
 
-	para "For some people,"
-	line "#MON are"
-	cont "pets. Others use"
-	cont "them for fights."
+	; para "For some people,"
+	; line "#MON are"
+	; cont "pets. Others use"
+	; cont "them for fights."
+	para "Fyrir suma,"
+	line "#MONar eru"
+	cont "gæludýr. Aðrir"
+	cont "nota þá til að"
+	cont "berjast."
 
-	para "Myself..."
+	; para "Myself..."
+	para "Fyrir mig..."
 
-	para "I study #MON"
-	line "as a profession."
+	; para "I study #MON"
+	; line "as a profession."
+	; prompt
+	para "Ég rannsaka"
+	line "#MONa sem"
+	cont "starfsgrein."
 	prompt
 
 _IntroducePlayerText::
@@ -1821,13 +1836,23 @@ _IntroducePlayerText::
 	prompt
 
 _IntroduceRivalText::
-	text "This is my grand-"
-	line "son. He's been"
-	cont "your rival since"
-	cont "you were a baby."
+	; text "This is my grand-"
+	; line "son. He's been"
+	; cont "your rival since"
+	; cont "you were a baby."
+	text "Þessi er barna-"
+	line "barnið mitt. Hann"
+	cont "hefur verið"
+	cont "keppinautur þinn"
+	cont "síðan þú varst"
+	cont "barn."
 
-	para "...Erm, what is"
-	line "his name again?"
+	; para "...Erm, what is"
+	; line "his name again?"
+	; prompt
+	para "...Hérna, hvað"
+	line "heitir hann"
+	cont "aftur?"
 	prompt
 
 _OakSpeechText3::

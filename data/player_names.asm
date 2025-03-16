@@ -1,13 +1,13 @@
 IF DEF(_RED)
 DefaultNamesPlayer:
-	db   "NÝTT NFN"
+	db   "NÝTTNAFN"
 	next "RAUÐUR"
 	next "ASH"
-	next "SIGURÐUR"
+	next "MAGNÚS"
 	db   "@"
 
 DefaultNamesRival:
-	db   "NÝTT NFN"
+	db   "NÝTTNAFN"
 	next "BLÁR"
 	next "GARY"
 	next "JÓN"
@@ -16,16 +16,16 @@ ENDC
 
 IF DEF(_BLUE)
 DefaultNamesPlayer:
-	db   "NÝTT NFN"
+	db   "NÝTTNAFN"
 	next "BLÁR"
 	next "GARY"
 	next "JÓN"
 	db   "@"
 
 DefaultNamesRival:
-	db   "NÝTT NFN"
+	db   "NÝTTNAFN"
 	next "RAUÐUR"
 	next "ASH"
-	next "SIGURÐUR"
+	next "MAGNÚS"
 	db   "@"
 ENDC
