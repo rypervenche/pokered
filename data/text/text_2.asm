@@ -1840,9 +1840,10 @@ _IntroduceRivalText::
 	; line "son. He's been"
 	; cont "your rival since"
 	; cont "you were a baby."
-	text "Þessi er barna-"
-	line "barnið mitt. Hann"
-	cont "hefur verið"
+
+	text "Þessi er"
+	line "barnabarnið mitt."
+	cont "Hann hefur verið"
 	cont "keppinautur þinn"
 	cont "síðan þú varst"
 	cont "barn."
@@ -1882,14 +1883,21 @@ _DoYouWantToNicknameText::
 	done
 
 _YourNameIsText::
-	text "Right! So your"
-	line "name is <PLAYER>!"
+	; text "Right! So your"
+	; line "name is <PLAYER>!"
+	; prompt
+	text "Rétt! Svo heitirðu"
+	line "<PLAYER>!"
 	prompt
 
 _HisNameIsText::
-	text "That's right! I"
-	line "remember now! His"
-	cont "name is <RIVAL>!"
+	; text "That's right! I"
+	; line "remember now! His"
+	; cont "name is <RIVAL>!"
+	; prompt
+	text "Það er rétt! Ég"
+	line "man núna! Hann"
+	cont "heitir <RIVAL>!"
 	prompt
 
 _WillBeTradedText::
