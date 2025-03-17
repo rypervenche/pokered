@@ -1787,10 +1787,10 @@ _OakSpeechText1::
 	; prompt
 	text "Komdu sæl(l)!"
 	line "Velkomin(n) í"
-	cont "heiminn #MONa!"
+	cont "heim #MONa!"
 
 	para "Ég heiti EIK!"
-	line "Fólk heitir mig"
+	line "Fólk kallar mig"
 	cont "#MON PRÓFinn!"
 	prompt
 
@@ -1800,8 +1800,8 @@ _OakSpeechText2A::
 	; cont "creatures called"
 	; cont "#MON!@"
 	; text_end
-	text "Þessi heimur er"
-	line "byggður skepnum"
+	text "Í þessum heim búa"
+	line "skepnur sem"
 	cont "sem kallast"
 	cont "#MONar!@"
 	text_end
@@ -1814,7 +1814,7 @@ _OakSpeechText2B::
 	; cont "pets. Others use"
 	; cont "them for fights."
 	para "Fyrir suma,"
-	line "#MONar eru"
+	line "eru #MONar"
 	cont "gæludýr. Aðrir"
 	cont "nota þá til að"
 	cont "berjast."
